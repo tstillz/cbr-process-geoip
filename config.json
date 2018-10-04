@@ -1,0 +1,14 @@
+{
+  "cb_url": "",
+  "cb_api": "",
+  "queries": [
+      {
+          "filename": "explorer_connections.csv",
+          "query": "process_name:explorer.exe AND netconn_count:[1 TO *]"
+      },
+      {
+          "filename": "powershell_connections.csv",
+          "query": "process_name:powershell.exe AND netconn_count:[1 TO *]"
+      }
+  ]
+}
